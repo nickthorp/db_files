@@ -9,7 +9,7 @@ CREATE TABLE hoard_user(
   user_firstname VARCHAR(15),
   user_lastname VARCHAR(20),
   PRIMARY KEY ( user_email )
-);
+)
 /
 CREATE TABLE hoard_book(
   book_id INT NOT NULL AUTO_INCREMENT,
