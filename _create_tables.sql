@@ -1,4 +1,8 @@
 # This script is for creating the tables for Hoard.
+
+DROP TABLE hoard_user;
+DROP TABLE hoard_book;
+
 CREATE TABLE hoard_user(
   user_email VARCHAR(40) NOT NULL,
   user_username VARCHAR(20) NOT NULL,
