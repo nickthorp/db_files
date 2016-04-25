@@ -1,7 +1,13 @@
 # This script is for creating the tables for Hoard.
 
-DROP TABLE IF EXISTS hoard_user;
 DROP TABLE IF EXISTS hoard_book;
+DROP TABLE IF EXISTS hoard_comic;
+DROP TABLE IF EXISTS hoard_movie;
+DROP TABLE IF EXISTS hoard_music;
+DROP TABLE IF EXISTS hoard_tabletop;
+DROP TABLE IF EXISTS hoard_tv_series;
+DROP TABLE IF EXISTS hoard_videogame;
+DROP TABLE IF EXISTS hoard_user;
 
 CREATE TABLE hoard_user(
   user_email VARCHAR(40) NOT NULL,
