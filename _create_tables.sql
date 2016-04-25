@@ -72,7 +72,7 @@ CREATE TABLE hoard_tabletop(
   tabletop_title VARCHAR(128) NOT NULL,
   tabletop_min_player INT,
   tabletop_max_player INT,
-  PRIMARY KEY ( tabletop_int ),
+  PRIMARY KEY ( tabletop_id ),
   FOREIGN KEY ( tabletop_email ) REFERENCES hoard_user( user_email )
 );
 
